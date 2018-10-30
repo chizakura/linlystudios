@@ -1,0 +1,30 @@
+{
+  "name": "linlystudios",
+  "version": "1.0.0",
+  "description": "The begining stages of development",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chizakura/linlystudios.git"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "author": "Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chizakura/linlystudios/issues"
+  },
+  "homepage": "https://github.com/chizakura/linlystudios#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
