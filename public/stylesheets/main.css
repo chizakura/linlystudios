@@ -3,10 +3,10 @@
   color: white;
   padding-bottom: 20px; } /*Controls shape of jumbotron from the bottom*/
   .jumbotron .btn-primary {
-    background: #845ac7;
-    border-color: #845ac7; }
+    background: #f9d562;
+    border-color: #f9d562; } /*Adds a border to the button*/
     .jumbotron .btn-primary:hover {
-      background: #7646c1; }
+      background: #ffce2d; }
   .jumbotron p {
     color: #ffffff;
     max-width: 75%;
@@ -25,3 +25,25 @@
     .jumbotron .lang-logo img {
       max-width: 100%; }
 
+.new-arrivals-panel {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+  .new-arrivals-panel .img-rounded {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    max-height: 250px;
+    margin: auto;
+  }
+
+  .new-arrivals-panel .btn-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
