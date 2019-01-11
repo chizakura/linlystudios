@@ -12,3 +12,19 @@ Known Concepts Used
 -------------------
 1. Bootstrap (HTML, CSS)
 2. Node.js
+
+Favicon
+-------
+1. Open Chrome
+2. Navigate ti the favicon.ico file directly, e.g. http://localhost:3000/favicon.ico
+3. Refresh the favicon.ico URl by pressing F5 or the appropriate browser refresh button
+4. Close the browser and open your website
+
+*Put the app configuration function for the favicon before every other function
+*Express doc:'The order of which middleware are "defined" using app.use() is very important, they are invoked sequentially, thus this defines middleware precedence.'
+
+Cezerin
+-------
+Free ecommerce web platform
+Installation: https://github.com/cezerin/cezerin/blob/master/docs/getting-started.md
+Slack support: caesarcommerce.slack.com
